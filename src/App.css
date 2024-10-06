@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.noSelect {
+    user-select: none;
+}
+
+.inputField {
+    @apply h-12 bg-transparent border-b-2 text-white text-2xl placeholder-[rgb(222,208,250)] hover:bg-[rgb(116,90,169)] hover:bg-opacity-25 p-3 rounded-md w-full
+}
